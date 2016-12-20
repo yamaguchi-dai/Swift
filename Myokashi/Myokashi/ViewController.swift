@@ -110,6 +110,7 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
   }
   
   
+  
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
     return okashiList.count
   }
@@ -117,6 +118,8 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
     let cell = tableView.dequeueReusableCell(withIdentifier: "okashiCell", for: indexPath)
+    
+     cell.textLabel?.numberOfLines=0
     
     cell.textLabel?.text = okashiList[indexPath.row].name+"\n"+okashiList[indexPath.row].price
     
