@@ -14,6 +14,8 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    
     //Search Barのdelegate通知先を設定
     searchText.delegate=self
     //入力のヒントとなる、プーレスホルダを設定
@@ -30,15 +32,13 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
   @IBOutlet weak var searchText: UISearchBar!
   @IBOutlet weak var tableView: UITableView!
   
-  
-  var okashiList : [(maker:String , name:String , link:String , image:String)] = []
+  var okashiList : [(maker:String , name:String ,price:String , link:String , image:String)] = []
   
   //サーチボタンをクリック時
   func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
     //キーボードを閉じる
     view.endEditing(true)
     
-    print(searchBar.text)
     
     if let searchWord=searchBar.text{
       //入力されてたら検索
@@ -52,9 +52,9 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
     //お菓子の検索ワードをurlエンコードする
     let keyword_encode=keyword.addingPercentEncoding(withAllowedCharacters:CharacterSet.urlQueryAllowed)
     //urlを作成
-    let URL=Foundation.URL(string:"http://www.sysbird.jp/toriko/api/?apikey=guest&format=json//&keyword=\(keyword_encode!)&max=10&order=r")
+    let URL=Foundation.URL(string:"http://www.sysbird.jp/toriko/api/?apikey=guest&format=json//&keyword=\(keyword_encode!)&max=30&order=r")
     
-    print(URL)
+    
     
     let req = URLRequest(url: URL!)
     
@@ -71,6 +71,7 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
         self.okashiList.removeAll()
         
         if let items = json["item"] as? [[String:Any]]{
+          
           for item in items {
             guard let maker = item["maker"] as? String else {
               continue
@@ -78,13 +79,18 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
             guard let name = item["name"] as? String else {
               continue
             }
+            guard let price = item["price"] as? String else {
+              continue
+            }
             guard let link = item["url"] as? String else {
               continue
             }
             guard let image = item["image"] as? String else {
-              continue}
+              continue
+            }
+         
             
-            let okashi = (maker,name,link,image)
+            let okashi = (maker,name,price,link,image)
             
             self.okashiList.append(okashi)
           }
@@ -112,7 +118,7 @@ class ViewController: UIViewController,UISearchBarDelegate, UITableViewDataSourc
     
     let cell = tableView.dequeueReusableCell(withIdentifier: "okashiCell", for: indexPath)
     
-    cell.textLabel?.text = okashiList[indexPath.row].name
+    cell.textLabel?.text = okashiList[indexPath.row].name+"\n"+okashiList[indexPath.row].price
     
     let url = URL(string: okashiList[indexPath.row].image)
     

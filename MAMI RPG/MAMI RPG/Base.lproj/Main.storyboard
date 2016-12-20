@@ -22,37 +22,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="マミタスクエスト" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRa-5H-9PI">
-                                <rect key="frame" x="0.0" y="20" width="375" height="50"/>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="dFb-XI-XWZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="カニ将軍" translatesAutoresizingMaskIntoConstraints="NO" id="Fy0-wB-Gui">
+                                <rect key="frame" x="-113" y="444" width="600" height="202"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="qS1-Tn-L37"/>
+                                    <constraint firstAttribute="height" constant="202" id="wA6-Im-bMD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="30"/>
-                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="30"/>
-                                </variation>
-                            </label>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8H1-3R-Xgm">
-                                <rect key="frame" x="46" y="587" width="283" height="30"/>
-                                <state key="normal" title="攻撃"/>
+                                <rect key="frame" x="35" y="578" width="304" height="89"/>
+                                <state key="normal" title="ここをタップして攻撃"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T5n-rf-gn5"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="にんじん" translatesAutoresizingMaskIntoConstraints="NO" id="VFA-6V-g1y">
+                                <rect key="frame" x="24" y="166" width="327" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="Ox5-Jl-icF"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="タイトル" translatesAutoresizingMaskIntoConstraints="NO" id="TWY-aI-aIX">
+                                <rect key="frame" x="28" y="-7" width="318" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="47770000/47770000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6E-DR-kft">
+                                <rect key="frame" x="50" y="137" width="275" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="NAL-ti-OzR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="8H1-3R-Xgm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="SsI-I9-gMH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="8H1-3R-Xgm" secondAttribute="trailing" constant="30" id="WmY-Vb-atJ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8H1-3R-Xgm" secondAttribute="bottom" constant="50" id="q03-7u-3CJ"/>
-                            <constraint firstAttribute="trailing" secondItem="yRa-5H-9PI" secondAttribute="trailing" id="tXX-ST-kuQ"/>
-                            <constraint firstItem="yRa-5H-9PI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ukS-Rr-Utj"/>
-                            <constraint firstItem="yRa-5H-9PI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xUi-Pg-kjD"/>
+                            <constraint firstItem="c6E-DR-kft" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="117" id="4GY-IO-X1f"/>
+                            <constraint firstItem="c6E-DR-kft" firstAttribute="centerX" secondItem="dFb-XI-XWZ" secondAttribute="centerX" id="5kf-mo-e5V"/>
+                            <constraint firstItem="dFb-XI-XWZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FRK-b5-fO3"/>
+                            <constraint firstItem="VFA-6V-g1y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="146" id="MvI-EM-3Ye"/>
+                            <constraint firstItem="8H1-3R-Xgm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="19" id="SsI-I9-gMH"/>
+                            <constraint firstItem="VFA-6V-g1y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="TZn-Vi-RBa"/>
+                            <constraint firstAttribute="trailing" secondItem="Fy0-wB-Gui" secondAttribute="trailing" constant="-112" id="Ugc-8t-Eed"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8H1-3R-Xgm" secondAttribute="trailing" constant="20" id="WmY-Vb-atJ"/>
+                            <constraint firstItem="c6E-DR-kft" firstAttribute="centerX" secondItem="VFA-6V-g1y" secondAttribute="centerX" id="Zzj-Vg-3XR"/>
+                            <constraint firstItem="8H1-3R-Xgm" firstAttribute="top" secondItem="VFA-6V-g1y" secondAttribute="bottom" constant="142" id="cPc-8x-sZG"/>
+                            <constraint firstItem="dFb-XI-XWZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eIx-ef-eDf"/>
+                            <constraint firstItem="dFb-XI-XWZ" firstAttribute="centerX" secondItem="8H1-3R-Xgm" secondAttribute="centerX" id="ilD-ua-JUz"/>
+                            <constraint firstItem="Fy0-wB-Gui" firstAttribute="bottom" secondItem="8H1-3R-Xgm" secondAttribute="bottom" constant="-21" id="mD1-sq-9fc"/>
+                            <constraint firstItem="c6E-DR-kft" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="34" id="pRd-Wl-4ms"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8H1-3R-Xgm" secondAttribute="bottom" id="q03-7u-3CJ"/>
+                            <constraint firstItem="dFb-XI-XWZ" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="slO-Qx-xem"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="result" destination="c6E-DR-kft" id="p0u-U6-ObV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="141.59999999999999" y="134.48275862068968"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="back" width="1000" height="750"/>
+        <image name="にんじん" width="77" height="231"/>
+        <image name="カニ将軍" width="600" height="600"/>
+        <image name="タイトル" width="347" height="64"/>
+    </resources>
 </document>

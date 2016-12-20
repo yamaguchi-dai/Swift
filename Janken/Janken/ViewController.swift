@@ -28,6 +28,9 @@ class ViewController: UIViewController {
   var i:UInt32=0
   var newI:UInt32=0
   var resulti:UInt32=0
+  //var test2:Array = ["山田", "
+  var image : Array = ["gu","choki","pa"]
+  var text : Array = ["グー","チョキ","パー"]
   
   @IBAction func shuffle(_ sender: Any) {
     
@@ -41,16 +44,9 @@ class ViewController: UIViewController {
     i=newI
     resulti=resulti+1
     
-    if(i==0){
-      resultLabel.text="グー"
-      resultImage.image=UIImage(named:"gu")
-    }else if i==1{
-      resultLabel.text="チョキ"
-      resultImage.image=UIImage(named:"choki")
-    }else if i==2{
-      resultLabel.text="パー"
-      resultImage.image=UIImage(named:"pa")
-    }
+      resultLabel.text=text[Int(i)]
+      resultImage.image=UIImage(named:image[Int(i)])
+   
     result.text=String(resulti)
     
   }

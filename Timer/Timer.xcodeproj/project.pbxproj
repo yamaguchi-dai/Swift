@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE7C80921E0137EE00CAAEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C80911E0137EE00CAAEE4 /* AppDelegate.swift */; };
-		CE7C80941E0137EE00CAAEE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C80931E0137EE00CAAEE4 /* ViewController.swift */; };
-		CE7C80971E0137EE00CAAEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7C80951E0137EE00CAAEE4 /* Main.storyboard */; };
-		CE7C80991E0137EE00CAAEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7C80981E0137EE00CAAEE4 /* Assets.xcassets */; };
-		CE7C809C1E0137EE00CAAEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7C809A1E0137EE00CAAEE4 /* LaunchScreen.storyboard */; };
-		CEF307FF1E022B4D008086D3 /* kick-high1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF307FD1E022B4D008086D3 /* kick-high1.mp3 */; };
-		CEF308001E022B4D008086D3 /* punch-high1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF307FE1E022B4D008086D3 /* punch-high1.mp3 */; };
-		CEF308021E022DE3008086D3 /* マミタスクエストBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF308011E022DE3008086D3 /* マミタスクエストBGM.mp3 */; };
+		CEF308101E033678008086D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3080F1E033678008086D3 /* AppDelegate.swift */; };
+		CEF308121E033678008086D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF308111E033678008086D3 /* ViewController.swift */; };
+		CEF308151E033678008086D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF308131E033678008086D3 /* Main.storyboard */; };
+		CEF308171E033678008086D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF308161E033678008086D3 /* Assets.xcassets */; };
+		CEF3081A1E033678008086D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF308181E033678008086D3 /* LaunchScreen.storyboard */; };
+		CEF308221E033E99008086D3 /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF308211E033E99008086D3 /* settingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE7C808E1E0137EE00CAAEE4 /* MAMI RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAMI RPG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE7C80911E0137EE00CAAEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE7C80931E0137EE00CAAEE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE7C80961E0137EE00CAAEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE7C80981E0137EE00CAAEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE7C809B1E0137EE00CAAEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE7C809D1E0137EE00CAAEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEF307FD1E022B4D008086D3 /* kick-high1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kick-high1.mp3"; sourceTree = "<group>"; };
-		CEF307FE1E022B4D008086D3 /* punch-high1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "punch-high1.mp3"; sourceTree = "<group>"; };
-		CEF308011E022DE3008086D3 /* マミタスクエストBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "マミタスクエストBGM.mp3"; sourceTree = "<group>"; };
+		CEF3080C1E033678008086D3 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF3080F1E033678008086D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF308111E033678008086D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF308141E033678008086D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF308161E033678008086D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF308191E033678008086D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF3081B1E033678008086D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF308211E033E99008086D3 /* settingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE7C808B1E0137ED00CAAEE4 /* Frameworks */ = {
+		CEF308091E033678008086D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,76 +37,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE7C80851E0137ED00CAAEE4 = {
+		CEF308031E033678008086D3 = {
 			isa = PBXGroup;
 			children = (
-				CE7C80901E0137EE00CAAEE4 /* MAMI RPG */,
-				CE7C808F1E0137EE00CAAEE4 /* Products */,
+				CEF3080E1E033678008086D3 /* Timer */,
+				CEF3080D1E033678008086D3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE7C808F1E0137EE00CAAEE4 /* Products */ = {
+		CEF3080D1E033678008086D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE7C808E1E0137EE00CAAEE4 /* MAMI RPG.app */,
+				CEF3080C1E033678008086D3 /* Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE7C80901E0137EE00CAAEE4 /* MAMI RPG */ = {
+		CEF3080E1E033678008086D3 /* Timer */ = {
 			isa = PBXGroup;
 			children = (
-				CE7C80911E0137EE00CAAEE4 /* AppDelegate.swift */,
-				CE7C80931E0137EE00CAAEE4 /* ViewController.swift */,
-				CE7C80951E0137EE00CAAEE4 /* Main.storyboard */,
-				CE7C80981E0137EE00CAAEE4 /* Assets.xcassets */,
-				CE7C809A1E0137EE00CAAEE4 /* LaunchScreen.storyboard */,
-				CE7C809D1E0137EE00CAAEE4 /* Info.plist */,
-				CEF307FD1E022B4D008086D3 /* kick-high1.mp3 */,
-				CEF307FE1E022B4D008086D3 /* punch-high1.mp3 */,
-				CEF308011E022DE3008086D3 /* マミタスクエストBGM.mp3 */,
+				CEF3080F1E033678008086D3 /* AppDelegate.swift */,
+				CEF308111E033678008086D3 /* ViewController.swift */,
+				CEF308131E033678008086D3 /* Main.storyboard */,
+				CEF308211E033E99008086D3 /* settingViewController.swift */,
+				CEF308161E033678008086D3 /* Assets.xcassets */,
+				CEF308181E033678008086D3 /* LaunchScreen.storyboard */,
+				CEF3081B1E033678008086D3 /* Info.plist */,
 			);
-			path = "MAMI RPG";
+			path = Timer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE7C808D1E0137ED00CAAEE4 /* MAMI RPG */ = {
+		CEF3080B1E033678008086D3 /* Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE7C80A01E0137EE00CAAEE4 /* Build configuration list for PBXNativeTarget "MAMI RPG" */;
+			buildConfigurationList = CEF3081E1E033678008086D3 /* Build configuration list for PBXNativeTarget "Timer" */;
 			buildPhases = (
-				CE7C808A1E0137ED00CAAEE4 /* Sources */,
-				CE7C808B1E0137ED00CAAEE4 /* Frameworks */,
-				CE7C808C1E0137ED00CAAEE4 /* Resources */,
+				CEF308081E033678008086D3 /* Sources */,
+				CEF308091E033678008086D3 /* Frameworks */,
+				CEF3080A1E033678008086D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "MAMI RPG";
-			productName = "MAMI RPG";
-			productReference = CE7C808E1E0137EE00CAAEE4 /* MAMI RPG.app */;
+			name = Timer;
+			productName = Timer;
+			productReference = CEF3080C1E033678008086D3 /* Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE7C80861E0137ED00CAAEE4 /* Project object */ = {
+		CEF308041E033678008086D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = USER;
 				TargetAttributes = {
-					CE7C808D1E0137ED00CAAEE4 = {
+					CEF3080B1E033678008086D3 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 6Z8MT7296D;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CE7C80891E0137ED00CAAEE4 /* Build configuration list for PBXProject "MAMI RPG" */;
+			buildConfigurationList = CEF308071E033678008086D3 /* Build configuration list for PBXProject "Timer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -118,57 +112,55 @@
 				en,
 				Base,
 			);
-			mainGroup = CE7C80851E0137ED00CAAEE4;
-			productRefGroup = CE7C808F1E0137EE00CAAEE4 /* Products */;
+			mainGroup = CEF308031E033678008086D3;
+			productRefGroup = CEF3080D1E033678008086D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE7C808D1E0137ED00CAAEE4 /* MAMI RPG */,
+				CEF3080B1E033678008086D3 /* Timer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE7C808C1E0137ED00CAAEE4 /* Resources */ = {
+		CEF3080A1E033678008086D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF307FF1E022B4D008086D3 /* kick-high1.mp3 in Resources */,
-				CEF308001E022B4D008086D3 /* punch-high1.mp3 in Resources */,
-				CE7C809C1E0137EE00CAAEE4 /* LaunchScreen.storyboard in Resources */,
-				CE7C80991E0137EE00CAAEE4 /* Assets.xcassets in Resources */,
-				CEF308021E022DE3008086D3 /* マミタスクエストBGM.mp3 in Resources */,
-				CE7C80971E0137EE00CAAEE4 /* Main.storyboard in Resources */,
+				CEF3081A1E033678008086D3 /* LaunchScreen.storyboard in Resources */,
+				CEF308171E033678008086D3 /* Assets.xcassets in Resources */,
+				CEF308151E033678008086D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE7C808A1E0137ED00CAAEE4 /* Sources */ = {
+		CEF308081E033678008086D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7C80941E0137EE00CAAEE4 /* ViewController.swift in Sources */,
-				CE7C80921E0137EE00CAAEE4 /* AppDelegate.swift in Sources */,
+				CEF308121E033678008086D3 /* ViewController.swift in Sources */,
+				CEF308101E033678008086D3 /* AppDelegate.swift in Sources */,
+				CEF308221E033E99008086D3 /* settingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE7C80951E0137EE00CAAEE4 /* Main.storyboard */ = {
+		CEF308131E033678008086D3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE7C80961E0137EE00CAAEE4 /* Base */,
+				CEF308141E033678008086D3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CE7C809A1E0137EE00CAAEE4 /* LaunchScreen.storyboard */ = {
+		CEF308181E033678008086D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE7C809B1E0137EE00CAAEE4 /* Base */,
+				CEF308191E033678008086D3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -176,7 +168,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CE7C809E1E0137EE00CAAEE4 /* Debug */ = {
+		CEF3081C1E033678008086D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		CE7C809F1E0137EE00CAAEE4 /* Release */ = {
+		CEF3081D1E033678008086D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,27 +261,27 @@
 			};
 			name = Release;
 		};
-		CE7C80A11E0137EE00CAAEE4 /* Debug */ = {
+		CEF3081F1E033678008086D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6Z8MT7296D;
-				INFOPLIST_FILE = "MAMI RPG/Info.plist";
+				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yamaguppy.tk.MAMI-RPG";
+				PRODUCT_BUNDLE_IDENTIFIER = yamaguppy.tk.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		CE7C80A21E0137EE00CAAEE4 /* Release */ = {
+		CEF308201E033678008086D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6Z8MT7296D;
-				INFOPLIST_FILE = "MAMI RPG/Info.plist";
+				INFOPLIST_FILE = Timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "yamaguppy.tk.MAMI-RPG";
+				PRODUCT_BUNDLE_IDENTIFIER = yamaguppy.tk.Timer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -298,25 +290,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE7C80891E0137ED00CAAEE4 /* Build configuration list for PBXProject "MAMI RPG" */ = {
+		CEF308071E033678008086D3 /* Build configuration list for PBXProject "Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE7C809E1E0137EE00CAAEE4 /* Debug */,
-				CE7C809F1E0137EE00CAAEE4 /* Release */,
+				CEF3081C1E033678008086D3 /* Debug */,
+				CEF3081D1E033678008086D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE7C80A01E0137EE00CAAEE4 /* Build configuration list for PBXNativeTarget "MAMI RPG" */ = {
+		CEF3081E1E033678008086D3 /* Build configuration list for PBXNativeTarget "Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE7C80A11E0137EE00CAAEE4 /* Debug */,
-				CE7C80A21E0137EE00CAAEE4 /* Release */,
+				CEF3081F1E033678008086D3 /* Debug */,
+				CEF308201E033678008086D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE7C80861E0137ED00CAAEE4 /* Project object */;
+	rootObject = CEF308041E033678008086D3 /* Project object */;
 }
